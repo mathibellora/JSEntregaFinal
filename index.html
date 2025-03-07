@@ -5,33 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ingreso de Libros</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 </head>
 <body>
     <header>
-        <h1>Pre Entrega 2 - Mathias Bellora</h1>
+        <h1>Entrega Final JS - Mathias Bellora</h1>
     </header>
     
     <main>
-        <div id="ingresoLibros">
-            <h2>Ingreso de Libros</h2>
-            <input type="text" id="titulo" placeholder="Nombre del Libro">
-            <input type="number" id="anio" placeholder="Año de Publicación">
-            <input type="number" id="precio" placeholder="Precio del Libro">
-            <button id="agregarLibro">Agregar Libro</button>
-        </div>
-        <div id="listadoLibros">
-            <h2>Libros Ingresados</h2>
-        </div>
-        <div id="procesoLibros">
-            <h2>Procesar Libros</h2>
-            <button id="vaciarLibreria">Vaciar Librería</button>
-            <button id="libroCaro">Mostrar el Libro más caro</button>
-            <button id="libroViejo">Mostrar el Libro más viejo</button>
-            <p id="resultado"></p>
-        </div>
+        <h2>Listado de Libros</h2>
+        <div id="listadoLibros"></div>
 
-        
+        <button id="toggleCarrito" class="btn-toggle-carrito">🛒</button>
 
+        <div id="divCarrito" class="carrito">
+            <h2>Carrito de Compras</h2>
+            <div id="items-carrito"></div>
+            <button id="finalizar-compra" class="btn-finalizar">Finalizar Compra</button>
+        </div>
     </main>
 
     <footer>

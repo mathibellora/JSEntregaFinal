@@ -1,11 +1,10 @@
-# PreEntrega2 Mathias Bellora
+# Entrega Final JS Mathias Bellora
 
 Simulador de Sistema de Gestión de Libros
 
-Los datos se guardan en Local Storage en un array de objetos libro.
+La base de datos de libros se carga desde books.json
 
 El simulador consta con las siguientes secciones:
 
-- Ingreso de Libros (todos los campos son obligatorios)
-- Listado de Libros
-- Procesar Libros ( permite vaciar la lista completa de libros y buscar el libro más caro y el libro más viejo)
+- Listado de Libros: permite agregar libros al carrito de compras
+- Carrito de Compras Expandible (Haciendo click en el botón del carrito): permite ver los libros agregados al carrito, eliminar libros del carrito, y finalizar la compra
